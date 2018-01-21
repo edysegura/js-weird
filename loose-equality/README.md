@@ -2,6 +2,13 @@
 
 "Loose equality can lead to more headaches than it’s worth."
 
+```javascript
+console.log(a == 1 && a == 2 && a == 3)
+//true
+```
+
+"Triple Equals (strict equality) is superior to double equals. Whenever possible, you should use triple equals to test equality. By testing the type and value you can be sure that you are always executing a true equality test."
+
 ## References
 
 - [Double Equals vs. Triple Equals](https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a)
